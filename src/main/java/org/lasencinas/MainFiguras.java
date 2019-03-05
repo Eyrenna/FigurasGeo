@@ -1,6 +1,6 @@
 package org.lasencinas;
 
-import circulo.Circulo;
+import circuloTest.Circulo;
 import rectangulo.Rectangulo;
 
 

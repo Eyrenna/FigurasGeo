@@ -22,11 +22,13 @@ public class RectanguloTest {
         assertEquals(2, rectangle.getMenor(), 0.0);
     }
 
+    @Test
     public void getMayorTest() {
         assertEquals(6, rectangulo.getMayor(),  0.0);
         assertEquals(4, rectangle.getMayor(), 0.0);
     }
 
+    @Test
     public void getArea() {
         assertEquals(30, rectangulo.area(), 0.0);
         assertEquals(8, rectangle.area(), 0.0);

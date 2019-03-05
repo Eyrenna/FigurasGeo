@@ -1,4 +1,4 @@
-package circulo;
+package circuloTest;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -21,7 +21,7 @@ public class CirculoTest {
         assertEquals(5, circulo.getRadio(), 0.0);
         assertEquals(7, cercle.getRadio(), 0.0);
     }
-
+    @Test
     public void areaTest() {
         assertEquals(78.54, circulo.area(), 0.1);
         assertEquals(153.94, cercle.area(), 0.1);

@@ -1,4 +1,4 @@
-package circulo;
+package circuloTest;
 
 public class Circulo {
     //Atributos
