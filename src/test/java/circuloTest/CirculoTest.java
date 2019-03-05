@@ -1,5 +1,6 @@
 package circuloTest;
 
+import circulo.Circulo;
 import org.junit.Before;
 import org.junit.Test;
 
