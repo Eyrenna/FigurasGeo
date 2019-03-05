@@ -1,0 +1,2 @@
+# FigurasGeo
+Prácticas de herencia
