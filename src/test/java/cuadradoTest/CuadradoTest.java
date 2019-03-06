@@ -13,7 +13,8 @@ public class CuadradoTest {
 
     @Before
     public void init() {
-        cuadrado = new Cuadrado(3);
+
+        cuadrado = new Cuadrado("cuadradoUno", 3);
         quadrat = new Cuadrado(5);
     }
 
@@ -27,5 +28,11 @@ public class CuadradoTest {
     public void areaTest() {
         assertEquals(9, cuadrado.area(), 0.0);
         assertEquals(25, quadrat.area(), 0.0);
+    }
+
+    @Test
+    public void getNombreTest() {
+        assertEquals("cuadradoUno", cuadrado.getNombre());
+        assertEquals(null, quadrat.getNombre());
     }
 }

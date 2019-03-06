@@ -1,10 +1,13 @@
 package rectangulo;
 
 public class Rectangulo {
+
     //Atributos
+
     private double menor = 0d;
     private double mayor = 0d;
     private String nombre = null;
+
 
     //Constructor
 
@@ -19,7 +22,9 @@ public class Rectangulo {
         this.mayor = mayor;
     }
 
+
     //Geters
+
     public double getMenor() {
         return this.menor;
     }
@@ -28,8 +33,16 @@ public class Rectangulo {
         return this.mayor;
     }
 
+    public String getNombre() {
+        return this.nombre;
+    }
+
+
     //Métodos
+
     public double area() {
         return getMenor() * getMayor();
     }
+
+
 }

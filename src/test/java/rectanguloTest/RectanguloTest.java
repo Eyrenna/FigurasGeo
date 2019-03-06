@@ -12,7 +12,7 @@ public class RectanguloTest {
 
     @Before
     public void init() {
-        rectangulo = new Rectangulo(5, 6);
+        rectangulo = new Rectangulo("rectanguloUno",5, 6);
         rectangle = new Rectangulo(2, 4);
     }
 
@@ -32,5 +32,11 @@ public class RectanguloTest {
     public void getArea() {
         assertEquals(30, rectangulo.area(), 0.0);
         assertEquals(8, rectangle.area(), 0.0);
+    }
+
+    @Test
+    public void getNombreTest() {
+        assertEquals("rectanguloUno", rectangulo.getNombre());
+        assertEquals(null, rectangle.getNombre());
     }
 }

@@ -13,7 +13,7 @@ public class CirculoTest {
 
     @Before
     public void init() {
-        circulo = new Circulo(5);
+        circulo = new Circulo("circuloUno", 5);
         cercle = new Circulo(7);
     }
 
@@ -26,5 +26,11 @@ public class CirculoTest {
     public void areaTest() {
         assertEquals(78.54, circulo.area(), 0.1);
         assertEquals(153.94, cercle.area(), 0.1);
+    }
+
+    @Test
+    public void getNombreTest() {
+        assertEquals("circuloUno", circulo.getNombre());
+        assertEquals(null, cercle.getNombre());
     }
 }

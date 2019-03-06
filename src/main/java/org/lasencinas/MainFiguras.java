@@ -1,6 +1,7 @@
 package org.lasencinas;
 
 import circulo.Circulo;
+import cuadrado.Cuadrado;
 import rectangulo.Rectangulo;
 
 
@@ -18,10 +19,10 @@ public class MainFiguras {
         Circulo circuloConstructorSuper = new Circulo(5);
         Circulo circuloConstructorLocal = new Circulo("círculo", 5);
 
-        /*Cuadrado cuadradoConstructorSuper = new Cuadrado(2);
+        Cuadrado cuadradoConstructorSuper = new Cuadrado(2);
         Cuadrado cuadradoConstructorLocal = new Cuadrado("cuadrado", 2);
 
-        Elipse elipseConstructorSuper = new Elipse(3, 4);
+        /*Elipse elipseConstructorSuper = new Elipse(3, 4);
         Elipse elipseConstructorLocal = new Elipse("elipse", 3, 4);
 
         // test herencia y polimorfismo
