@@ -1,8 +1,10 @@
-package rectangulo;
+package elipse;
 
 import figuraGeometrica.FiguraGeometrica;
 
-public class Rectangulo extends FiguraGeometrica {
+import static java.lang.Math.PI;
+
+public class Elipse extends FiguraGeometrica {
 
     //Atributos
 
@@ -12,24 +14,24 @@ public class Rectangulo extends FiguraGeometrica {
 
     //Constructor
 
-    public Rectangulo() {
+    public Elipse() {
         super();
     }
 
-    public Rectangulo(double menor, double mayor) {
+    public Elipse(double menor, double mayor) {
         super();
         this.menor = menor;
         this.mayor = mayor;
     }
 
-    public Rectangulo(String nombre, double menor, double mayor){
+    public Elipse(String nombre, double menor, double mayor) {
         super(nombre);
         this.menor = menor;
         this.mayor = mayor;
     }
 
 
-    //Geters
+    //Getters
 
     public double getMenor() {
         return this.menor;
@@ -44,7 +46,7 @@ public class Rectangulo extends FiguraGeometrica {
 
     @Override
     public double area() {
-        return getMenor() * getMayor();
+        return PI * getMenor() * getMayor();
     }
 
 

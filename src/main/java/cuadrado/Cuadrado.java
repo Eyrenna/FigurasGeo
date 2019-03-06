@@ -7,7 +7,6 @@ public class Cuadrado extends FiguraGeometrica {
     //Atributos
 
     private double lado = 0d;
-    private String nombre = null;
 
 
     //Constructor

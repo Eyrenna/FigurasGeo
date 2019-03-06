@@ -7,6 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class RectanguloTest {
+
     private Rectangulo rectangulo = null;
     private Rectangulo rectangle = null;
 

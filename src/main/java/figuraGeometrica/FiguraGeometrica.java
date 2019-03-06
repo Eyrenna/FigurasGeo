@@ -27,4 +27,5 @@ public abstract class FiguraGeometrica {
     //Métodos
 
     public abstract double area();
+    /*Sobrescrita en sus subclases*/
 }

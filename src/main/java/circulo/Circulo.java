@@ -2,13 +2,13 @@ package circulo;
 
 import figuraGeometrica.FiguraGeometrica;
 
+import static java.lang.Math.PI;
+
 public class Circulo extends FiguraGeometrica {
 
     //Atributos
 
     private double radio = 0d;
-    private String nombre = null;
-    private final double PI = Math.PI;
     /*final porque el atributo no va a cambiar*/
 
 
