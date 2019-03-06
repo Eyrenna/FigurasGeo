@@ -43,6 +43,7 @@ public class Rectangulo extends FiguraGeometrica {
 
     //Métodos
 
+    @Override
     public double area() {
         return getMenor() * getMayor();
     }

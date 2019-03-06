@@ -1,6 +1,6 @@
 package figuraGeometrica;
 
-public class FiguraGeometrica {
+public abstract class FiguraGeometrica {
 
     //Atributos
 
@@ -16,10 +16,15 @@ public class FiguraGeometrica {
         this.nombre = nombre;
     }
 
-    //Métodos
+    //Getters
 
     public String getNombre(){
         return this.nombre;
     }
     /*Al poner este método común e idéntico en todas sus subclases podemos eliminarla en cada una de ellas*/
+
+
+    //Métodos
+
+    public abstract double area();
 }

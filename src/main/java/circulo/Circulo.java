@@ -38,6 +38,7 @@ public class Circulo extends FiguraGeometrica {
 
     //Métodos
 
+    @Override
     public double area() {
         return PI * Math.pow(this.radio, 2);
         /*math.pow(numero, potencia) = elevar un número a una potencia*/
