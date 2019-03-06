@@ -1,6 +1,8 @@
 package rectangulo;
 
-public class Rectangulo {
+import figuraGeometrica.FiguraGeometrica;
+
+public class Rectangulo extends FiguraGeometrica {
 
     //Atributos
 
@@ -11,13 +13,18 @@ public class Rectangulo {
 
     //Constructor
 
+    public Rectangulo() {
+        super();
+    }
+
     public Rectangulo(double menor, double mayor) {
+        super();
         this.menor = menor;
         this.mayor = mayor;
     }
 
     public Rectangulo(String nombre, double menor, double mayor){
-        this.nombre = nombre;
+        super(nombre);
         this.menor = menor;
         this.mayor = mayor;
     }
@@ -31,10 +38,6 @@ public class Rectangulo {
 
     public double getMayor() {
         return this.mayor;
-    }
-
-    public String getNombre() {
-        return this.nombre;
     }
 
 

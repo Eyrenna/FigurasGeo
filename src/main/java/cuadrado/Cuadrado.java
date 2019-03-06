@@ -1,6 +1,8 @@
 package cuadrado;
 
-public class Cuadrado {
+import figuraGeometrica.FiguraGeometrica;
+
+public class Cuadrado extends FiguraGeometrica {
 
     //Atributos
 
@@ -10,12 +12,17 @@ public class Cuadrado {
 
     //Constructor
 
+    public Cuadrado() {
+        super();
+    }
+
     public Cuadrado(double lado) {
+        super();
         this.lado = lado;
     }
 
     public Cuadrado(String nombre, double lado) {
-        this.nombre = nombre;
+        super(nombre);
         this.lado = lado;
     }
 
@@ -24,10 +31,6 @@ public class Cuadrado {
 
     public double getLado() {
         return this.lado;
-    }
-
-    public String getNombre() {
-        return this.nombre;
     }
 
 

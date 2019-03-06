@@ -37,6 +37,6 @@ public class RectanguloTest {
     @Test
     public void getNombreTest() {
         assertEquals("rectanguloUno", rectangulo.getNombre());
-        assertEquals(null, rectangle.getNombre());
+        assertEquals("desconocido", rectangle.getNombre());
     }
 }

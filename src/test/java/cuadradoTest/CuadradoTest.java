@@ -33,6 +33,6 @@ public class CuadradoTest {
     @Test
     public void getNombreTest() {
         assertEquals("cuadradoUno", cuadrado.getNombre());
-        assertEquals(null, quadrat.getNombre());
+        assertEquals("desconocido", quadrat.getNombre());
     }
 }

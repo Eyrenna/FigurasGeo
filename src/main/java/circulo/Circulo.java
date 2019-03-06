@@ -1,6 +1,8 @@
 package circulo;
 
-public class Circulo {
+import figuraGeometrica.FiguraGeometrica;
+
+public class Circulo extends FiguraGeometrica {
 
     //Atributos
 
@@ -12,12 +14,17 @@ public class Circulo {
 
     //Constructor
 
+    public Circulo() {
+        super();
+    }
+
     public Circulo(double radio) {
+        super();
         this.radio = radio;
     }
 
     public Circulo (String nombre, double radio) {
-        this.nombre = nombre;
+        super(nombre);
         this.radio = radio;
     }
 
@@ -26,10 +33,6 @@ public class Circulo {
 
     public double getRadio() {
         return this.radio;
-    }
-
-    public String getNombre() {
-        return this.nombre;
     }
 
 

@@ -31,6 +31,6 @@ public class CirculoTest {
     @Test
     public void getNombreTest() {
         assertEquals("circuloUno", circulo.getNombre());
-        assertEquals(null, cercle.getNombre());
+        assertEquals("desconocido", cercle.getNombre());
     }
 }
