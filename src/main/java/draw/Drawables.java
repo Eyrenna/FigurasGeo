@@ -1,4 +1,4 @@
-package org.foobarspam.draw;
+package draw;
 
 import java.util.ArrayList;
 
@@ -9,8 +9,8 @@ public class Drawables {
 
     public static void dibujarDrawables(ArrayList<Drawable> lista){
 
-        for(Drawable elemento: lista){
-            elemento.draw();
+        for(Drawable elemento: lista){           /*elemento funciona como figuraG, en el momento de utilizar este método*/
+            elemento.draw();                     /*usará el método tal cual esté implementado en la figura especifíca*/
         }
 
     }
@@ -35,7 +35,9 @@ public class Drawables {
                  * Pero la regla es: un pez es nadador (interfaz), aunque no todo nadador (intefaz) es un pez
                  */
 
-                FiguraGeometrica figura = (FiguraGeometrica) elemento;
+                FiguraGeometrica figura = (FiguraGeometrica) elemento; /*Si no hacemos upcasting no encontrará el método getNombre porque
+                lo tendrá identificado como circulo, elipse...(que sabemos que son drawable) pero hasta el momento no se indicaba que fuera
+                FiguraGeometrica dentro de este método*/
                 System.out.println(excepcion.getMessage() + " para la figura: " + figura.getNombre());
             }
         }

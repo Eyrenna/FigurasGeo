@@ -1,7 +1,7 @@
 package drawTest;
 
 import draw.Drawable;
-import org.foobarspam.draw.Drawables;
+import draw.Drawables;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
