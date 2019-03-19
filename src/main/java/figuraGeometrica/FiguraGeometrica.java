@@ -1,6 +1,6 @@
 package figuraGeometrica;
 
-import org.foobarspam.draw.Drawable;
+import draw.Drawable;
 
 public abstract class FiguraGeometrica implements Drawable {
 

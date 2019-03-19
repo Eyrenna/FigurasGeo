@@ -2,7 +2,8 @@ package org.foobarspam.draw;
 
 import java.util.ArrayList;
 
-import org.foobarspam.figuras.FiguraGeometrica;
+import draw.Drawable;
+import figuraGeometrica.FiguraGeometrica;
 
 public class Drawables {
 

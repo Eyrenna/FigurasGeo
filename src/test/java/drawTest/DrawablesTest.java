@@ -1,20 +1,20 @@
 package drawTest;
 
-import static org.junit.Assert.*;
-
-import java.util.ArrayList;
-
-
-import circulo.Circulo;
-import cuadrado.Cuadrado;
-import elipse.Elipse;
-import rectangulo.Rectangulo;
+import draw.Drawable;
+import org.foobarspam.draw.Drawables;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import org.foobarspam.draw.Drawable;
-import org.foobarspam.draw.Drawables;
+import circulo.Circulo;
+import cuadrado.Cuadrado;
+import rectangulo.Rectangulo;
+import elipse.Elipse;
+
+import java.util.ArrayList;
+
+import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertTrue;
 
 
 public class DrawablesTest {
